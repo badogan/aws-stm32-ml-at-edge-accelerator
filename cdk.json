@@ -17,16 +17,16 @@
   "context": {
     "config": {
       "envs": {
-        "cicd": { "account": "<Account>", "region": "<Region>" },
-        "ml": { "account": "<Account>", "region": "<Region>" },
-        "iot": [{ "name": "dev", "account": "<Region>", "region": "<Region>" }]
+        "cicd": { "account": "270414334307", "region": "eu-west-1" },
+        "ml": { "account": "270414334307", "region": "eu-west-1" },
+        "iot": [{ "name": "dev", "account": "270414334307", "region": "eu-west-1" }]
       },
       "stUsernameSecret": "ST_DEVCLOUD_USERNAME_SECRET",
       "stPasswordSecret": "ST_DEVCLOUD_PASSWORD_SECRET",
       "repo": {
-        "name": "<Repo_Name>",
-        "branch": "<Branch_Name>",
-        "connectionArn": "<Connection_Arn>"
+        "name": "badogan/aws-stm32-ml-at-edge-accelerator",
+        "branch": "main",
+        "connectionArn": "arn:aws:codestar-connections:us-east-1:270414334307:connection/c1ea86f4-96ae-4fd1-a888-771d7389da17"
       }
     },
     "@aws-cdk/core:bootstrapQualifier": "stmicro",
